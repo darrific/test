@@ -4,3 +4,164 @@ margin: 0;
 padding: 0;
 }
 
+
+/*The CSS for Page 1*/
+
+#bkgrnd1
+{
+position: absolute;
+background-color: #2E51D5;
+height: 100%;
+width: 100%;
+}
+
+
+#link
+{
+position: absolute;
+background-color: none;
+height: 4%;
+width:8%;
+top: 30%;
+left:30%;
+text-align: center;
+padding:7%;
+border: solid;
+border-radius: 6px;
+border-color: ;
+}
+
+a:hover
+{
+  color: black ;
+  background-color: #def ;
+}
+
+#hiddenpic
+{
+position: absolute;
+height: 4%;
+width:10%;
+top:20%;
+left:60%;
+background-color: yellow;
+}
+
+
+#hiddentext
+{
+display: none;
+position: absolute;
+height: 4%;
+width:8%;
+top:30%;
+left:60%;
+background-color: none;
+}
+
+
+/*The CSS for Page 2*/
+
+#background2
+{
+position: absolute;
+background: radial-gradient(black, white, blue);
+height: 100%;
+width: 100%;
+}
+
+#link2
+{
+position: absolute;
+background-color: none;
+height: 4%;
+width:8%;
+top:10%;
+left:3%;
+text-align: center;
+padding:1%;
+border: solid;
+border-radius: 6px;
+border-color: ;
+}
+
+a:hover
+{
+color: black ;
+background-color: #def ;
+}
+
+
+#somepics 
+
+{
+position: absolute;
+}
+
+#somepics 
+
+{
+display: inline-block;
+position: absolute;
+background-color: red;
+top: 20%;
+left:30%;
+}
+
+#somepics ul
+{
+list-style-type: none;
+}
+
+#l
+{
+position: absolute;
+height: 20%;
+width:40%;
+top: 90%;
+left: 60%;
+}
+
+#r
+{
+position: absolute;
+height: 20%;
+width:40%;
+top: 29%;
+left: 60%;
+}
+
+#svgdiv
+{
+position: absolute;
+width: 30%;
+height:30%;
+top: 60%;
+left: 60%; 
+background-color: none;
+}
+
+.svg
+{
+position: absolute;
+height: 20%;
+width:20%;
+top: 70%;
+left: 70%;
+z-index: 10
+}
+
+#Layer_1
+{
+position: absolute;
+left:80%;
+top:100%;
+}
+
+#Layer_2
+{
+position: absolute;
+left:95%;
+top: 100%;
+}
+
