@@ -10,7 +10,67 @@
 <title></title>
 
 <head></head>
-<body></body>
-<footer></footer>
+<body>
+        <div id="wrapper">
+
+       
+        	<p><a href="page2.html" id="link_1" > Link to Page Two</a></p>
+
+
+        	<p> <a class="jquery_button">  Hidden Div button  </a> </p>
+
+        	<div id="hidden_div">
+              
+               <img src="images/pic-2.jpg" />
+
+
+        	</div>
+
+
+
+
+
+
+
+
+
+       
+        </div>
+
+
+
+
+
+
+</body>
+<footer>
+       <script>
+ 				$(document).ready(function(){
+                    $(".jquery_button").on('click', function(){
+                       $("#hidden_div").show();
+
+                     $(".jquery_button").on('click', function(){
+                       $("#hidden_div").hide();   
+
+                   
+
+
+                   
+                    });
+                   
+
+                    });
+
+ 				
+
+ 				});
+
+
+
+
+  
+
+        </script>
+</footer>
 
 </html>
