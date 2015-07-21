@@ -1,5 +1,22 @@
+body 
+{
+	background-color:gray;
+}
+h1  
+{
+	color:blue;
+}
+p    
+{
+	color:green;
+}
+
 *
 {
 margin: 0;
 padding: 0;
+}
+a:hover 
+{
+color: #28F1D2;
 }
