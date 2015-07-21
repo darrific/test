@@ -2,4 +2,103 @@
 {
 margin: 0;
 padding: 0;
+font-family: bebasregular;
+font-size: 25pt;
+
+}
+
+body
+{
+width: 100% ;
+height: 100% ;
+background-color: red;
+overflow: hidden;
+}
+
+#grad
+{
+  width: 100% ;
+  height: 100% ;
+  position:absolute;
+  background: -webkit-radial-gradient(#055b6d 5%, #074654 15%, #022d36 60%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(#055b6d 5%, #074654 15%, #022d36 60%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#055b6d 5%, #074654 15%, #022d36 60%); /* For Firefox 3.6-15 */
+  background: radial-gradient(#055b6d 5%, #074654 15%, #022d36 60%); /* Standard syntax */
+}
+
+a:link 
+{
+	color:green; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:visited 
+{
+	color:orange; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:hover   
+{
+	color:red; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:active  
+{
+	color:yellow;
+ 	background-color:transparent; 
+ 	text-decoration:none;
+}
+
+#pagechange
+{
+	margin-top:2%;
+	margin-left:2%;
+    padding:12;
+    display: block;
+    background-color: #214249 ;
+    width: 15%;
+    height: 2vw;
+    text-align: center;
+}
+#smedia
+{
+	height:90%;
+	width:20%;
+	position:absolute;	
+}
+#smedia ul 
+{
+	margin-top:50vh;
+	margin-left:90vw;
+	width:100%;	
+}
+
+#smedia li 
+{
+	display: inline-block;
+}
+
+#pics
+{
+	position:absolute;
+}
+
+#pics li 
+{
+	display:inline-block;
+}
+
+#button
+{
+	margin-top:20%;
+	margin-left:45%;
+    padding:12;
+    display: block;
+    background-color: #214249 ;
+    width: 15%;
+    height: 2vw;
+    text-align: center;
+    position:absolute;
 }
