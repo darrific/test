@@ -1,0 +1,182 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+#background
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: black;
+}
+
+#background2
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: -webkit-radial-gradient(red,white,black,red,white,black,red,white,black);
+}
+
+#page1button:hover
+{
+color: red;
+}
+
+#page2button:hover
+{
+color: red;
+}
+
+#page1button
+{
+padding: 5%;
+position: absolute;
+height: 5%;
+width: 10%;
+color: white;
+font-family: rb;
+font-size: 3vw;
+text-align: center;
+}
+
+#page2button
+{
+padding: 5%;
+position: absolute;
+height: 5%;
+width: 10%;
+color: white;
+font-family: rb;
+font-size: 3vw;
+text-align: center;
+}
+
+#hideshow
+{
+padding: 5%;
+position: absolute;
+height: 5%;
+left: 20%;
+width: 10%;
+color: white;
+font-family: rb;
+font-size: 3vw;
+text-align: center;
+}
+
+#hiddendivbutton
+{
+padding: 5%;
+position: absolute;
+margin-top: 5%;
+margin-left: 40%;
+height: 5%;
+width: 10%;
+color: white;
+font-family: rb;
+font-size: 3vw;
+text-align: center;
+background-color: #999;
+border: 5px;
+}
+
+#showndiv
+{
+padding: 5%;
+padding-bottom: 5%;
+position: absolute;
+margin-top: 5%;
+margin-left: 40%;
+height: 5%;
+width: 10%;
+color: white;
+font-family: rb;
+font-size: 2vw;
+text-align: center;
+background-color: #999;
+border: 5px;
+display: none;
+}
+
+#svgs
+{
+margin-top: 40%;
+margin-left: 75%;
+position: absolute;
+height: 20%;
+width: 20%;
+}
+
+#media_div ul
+{
+width: 100%;
+height: 99%;
+margin-top: 1%;
+}
+
+#media_div li
+{
+margin-top: 5%;
+width: 10%;
+display: inline-block;
+}
+
+#media_div a
+{
+list-style-type: none;
+}
+
+.media_item1
+{
+position: absolute;
+width: 75%;
+height: 75%;
+fill: #f8be78;
+}
+
+.media_item1:hover
+{
+fill: #3b5998;
+}
+
+.media_item2
+{
+position: absolute;
+margin-top: -5%;
+left: 50%;
+width: 75%;
+height: 75%;
+fill: #f8be78;
+}
+
+.media_item2:hover
+{
+fill: #4099ff;
+}
+
+#images
+{
+position: absolute;
+top: 40%;
+left: 37%;
+width: 30%;
+height: 40%;
+}
+
+#images ul
+{
+width: 100%;
+height: 100%;
+}
+
+#images li
+{
+margin-left: 1%;
+display: inline-block;
+width: 48%;
+height: 98%;
+list-style-type: none;
+}

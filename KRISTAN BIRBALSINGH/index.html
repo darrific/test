@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text.css" href="animate.css">
+<link rel="stylesheet" type="text.css" href="fonts.css">
+<script type="text/javascript" src="jquery.js"></script>
+
+<title>DARRIEN GAY!</title>
+
+<head></head>
+<body>
+	
+<div id="background"></div>
+
+<a href="page2.html"><div id="page2button" class="alink">Click here for Page 2</div></a>
+
+<div id="hideshow">SHOW/HIDE</div>
+<div id="hiddendivbutton">I'm hiding!</div>
+<div id="showndiv">I'm showing! *blushes*</div>
+
+</body>
+<footer>
+	
+	<script>
+
+	var click_count = 1;
+	var click_count2 = 2;
+	$("#hideshow").click(function(){
+		if (click_count != click_count2)
+		{
+			$("#showndiv").fadeIn(200);
+			$("#hiddendivbutton").fadeOut(200);
+			click_count2 = click_count;
+		}
+		else 
+		{
+			$("#showndiv").fadeOut(200);
+			$("#hiddendivbutton").fadeIn(200);
+			click_count = 1;
+			click_count2 = 2;	
+		}
+	});
+
+	var audio = $("#allahuakbar")[0];
+	$("#page2button").mouseenter(function() {
+  	audio.play();
+	}); 
+	</script>
+
+</footer>
+
+</html>
