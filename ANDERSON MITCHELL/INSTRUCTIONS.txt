@@ -99,14 +99,14 @@ GET REKT GET REKT GET REKT GET REKT GET REKT GET REKT GET REKT GET REKT GET REKT
 
 LOS QUESTIONES:
 1. First page must have the following: 
-[10]	a. Background colour.
-[20]	b. One hyperlink to Page 2.
-[60]	c. One JQuery button that, on click, opens a HIDDEN div containing a funny picture. The button should
+[10x]	a. Background colour.
+[20x]	b. One hyperlink to Page 2.
+[60x]	c. One JQuery button that, on click, opens a HIDDEN div containing a funny picture. The button should
 	    also be used to re-hide said div; however the use of a secondary button to re-hide the div will be awarded half the points.
-[10]	d. All links must change colour on mouse hover.
+[10x]	d. All links must change colour on mouse hover.
 2. Second page must have the following:
-[10]	a. Background radial gradient (colour(s) of your choice).
-[20]	b. A hyperlink back to Page 1.
+[10x]	a. Background radial gradient (colour(s) of your choice).
+[20x]	b. A hyperlink back to Page 1.
 [40]	c. SVG hyperlinks to Facebook, and Twitter (SVGS provided, though you may use your own) at the bottom right of the page.
 [30]	d. An unordered list containing two list elements, each of which has an image in it. The images should be horizontally 
 	    aligned, i.e, they should be side-by-side. 
@@ -118,7 +118,7 @@ DEFAULT (WEBSAFE) FONTS ARE NOT ALLOWED.
 (Here is a link to the BANNED fonts:  http://www.cssfontstack.com/ ) 
 
 
-
+TOTAL MARK: 130;
 
 
 
