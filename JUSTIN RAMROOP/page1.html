@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<link rel="stylesheet" type="text/css" href="fonts.css">
+<script type="text/javascript" src="jquery.js"></script>
+
+<title>Hollywoo Celebrities: Do They Know Stuff? What Do They Know? Let's Find Out</title>
+
+<head></head>
+<body>
+	<div id="background"></div>
+	<div id="mulder"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i><b>*X-FILES THEME*</b></i></a></div>
+	<div id="truth"><a href="page2.html"><b>THE TRUTH IS OUT THERE</b></a></div>
+	<div id="scully"><a href="http://imgur.com/47lnRm3.jpg"><u>No it isn't.</u></a></div>
+<a href="#" id="button">
+	<div id="button_div">CLICK ME!</div>
+</a>
+
+<div id="hidden_simon"><img src="simon.jpg"></div>
+
+</body>
+<footer>
+<script>
+	var click_count = 1;
+			var click_count2 = 0;
+			$("#button_div").click(function(){
+					if (click_count != click_count2)
+					{
+						$("#hidden_simon").fadeIn(1000);
+						click_count2 = click_count;
+					}
+					else 
+					{
+						$("#hidden_simon").fadeOut(10000);
+						click_count = 1;
+						click_count2 = 0;	
+					}
+				});
+</script>
+</footer>
+
+</html>
